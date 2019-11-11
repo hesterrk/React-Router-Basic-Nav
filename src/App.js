@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
 import { Home, About, Contact, Navigation } from './components';
+import { Router } from 'react-router-dom';
 
-<Router>
+
 const App = () => (
   <div>
     <Navigation />
   </div>
 );
 
-</Router>
+
+
 
 export default App;
